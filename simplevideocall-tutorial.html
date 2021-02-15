@@ -17,10 +17,6 @@
           <h2>상대방</h2>
           <video id="remoteVideo" class="remoteVideo" autoplay playsinline></video>
         </div>
-        <div id="you2" class="col-12 col-sm-6 col-md-6">
-          <h2>상대방2</h2>
-          <video id="remoteVideo2" class="remoteVideo" autoplay playsinline></video>
-        </div>
         <div id="me" class="col-12 col-sm-6 col-md-6">
           <h2>나</h2>
           <video id="localVideo" class="localVideo" muted autoplay playsinline></video>
@@ -59,7 +55,7 @@
         key: '99f9379767622f0215c798bd0e7c992ac27defc024533d6bf896d757fff2e1ba'
       },
       view: {
-        remote: {'#remoteVideo','#remoteVideo2'},
+        remote: '#remoteVideo',
         local: '#localVideo'
       }
     }
